@@ -1,0 +1,3 @@
+[Warn  - 2:37:08 AM] 08:37:08.304 WARNING ⛔️ Environment variable configuration is being deprecated, please use workspace configuration. The following environment variables were used: shfmt
+[Warn  - 2:37:08 AM] 08:37:08.326 WARNING ⛔️ Error while parsing file:///home/max/.zshrc: syntax error
+[Warn  - 2:37:08 AM] 08:37:08.837 WARNING ⛔️ ShellCheck: disabling linting as no executable was found at path 'shellcheck'

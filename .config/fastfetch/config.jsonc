@@ -1,0 +1,70 @@
+{
+    "logo": "Aperture",
+    "display": {
+        "separator": " \u001b[38;5;208m→\u001b[0m ",
+        "color": "cyan"
+    },
+    "modules": [
+        {
+            "type": "custom",
+            "format": "\u001b[38;5;51m╔═════\u001b[38;5;208m[[ \u001b[38;5;226mAperture Science Computer-Aided Enrichment Center\u001b[38;5;208m ]]\u001b[38;5;51m═╗\u001b[0m"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[38;5;244m     Your specimen has been processed and we are now ready to begin the test.\u001b[0m"
+        },
+        "break",
+        {
+            "type": "os",
+            "key": "\u001b[38;5;51m  \u001b[38;5;87m OS\u001b[0m"
+        },
+        {
+            "type": "kernel",
+            "key": "\u001b[38;5;51m  \u001b[38;5;81m Kernel\u001b[0m"
+        },
+        {
+            "type": "packages",
+            "key": "\u001b[38;5;208m  󰏗\u001b[38;5;209m Packages\u001b[0m"
+        },
+        {
+            "type": "shell",
+            "key": "\u001b[38;5;208m  \u001b[38;5;215m Shell\u001b[0m"
+        },
+        {
+            "type": "display",
+            "key": "\u001b[38;5;51m  󰍹\u001b[38;5;123m Display\u001b[0m"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[38;5;51m╠═════\u001b[38;5;208m[[ \u001b[38;5;226mVital Apparatus Vent System\u001b[38;5;208m ]]\u001b[38;5;51m═════════════╣\u001b[0m"
+        },
+        {
+            "type": "cpu",
+            "key": "\u001b[38;5;51m  \u001b[38;5;45m CPU\u001b[0m"
+        },
+        {
+            "type": "gpu",
+            "key": "\u001b[38;5;51m  󰢮\u001b[38;5;39m GPU\u001b[0m"
+        },
+        {
+            "type": "memory",
+            "key": "\u001b[38;5;208m  \u001b[38;5;214m Memory\u001b[0m"
+        },
+        {
+            "type": "uptime",
+            "key": "\u001b[38;5;208m  󰅐\u001b[38;5;208m Uptime\u001b[0m"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[38;5;51m╚═════\u001b[38;5;208m[[ \u001b[38;5;226mTest Assessment: Cake Achievement Unlocked\u001b[38;5;208m ]]\u001b[38;5;51m═╝\u001b[0m"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[38;5;244m     Remember: The cake is a lie, but these stats are quite real.\u001b[0m"
+        },
+        "break",
+        "colors"
+    ]
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<submenu></submenu>
+	<unique-id>1747798612947525-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Example for a custom action</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Open in Neovim</name>
+	<submenu></submenu>
+	<unique-id>1747814088356967-1</unique-id>
+	<command>kitty -e nvim %f</command>
+	<description>Open this file in Neovim inside a terminal</description>
+	<range>*</range>
+	<patterns>*</patterns>
+</action>
+</actions>

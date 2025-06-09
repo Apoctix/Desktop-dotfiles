@@ -1,0 +1,10 @@
+2025-06-01 22:14:09.885 [info] Started local extension host with pid 147930.
+2025-06-01 22:14:09.914 [info] ComputeTargetPlatform: linux-x64
+2025-06-01 22:14:12.917 [info] [perf] Render performance baseline is 31ms
+2025-06-01 22:14:25.949 [error] Error: The editor could not be opened because the file was not found.
+    at vEe.handleSetInputError (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2163:138239)
+    at async vEe.setInput (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2163:137251)
+    at async Q5e.doSetInput (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:685:25335)
+    at async Q5e.doOpenEditor (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:685:23093)
+    at async Q5e.openEditor (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:685:22020)
+    at async vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:797:31612

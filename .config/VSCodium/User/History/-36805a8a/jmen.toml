@@ -1,0 +1,43 @@
+
+# ────────────────────────────────────────────────
+# Max's Cyberpunk Starship Prompt - Red & Yellow
+# ────────────────────────────────────────────────
+
+format = """
+[┌─Maxλ IN](bold red)$directory$git_branch$git_status$package
+[└─ ](bold yellow)$time $character
+"""
+
+# Show the current directory
+[directory]
+style = "bold yellow"
+read_only = " "
+truncation_length = 3
+truncate_to_repo = false
+
+# Git branch name
+[git_branch]
+symbol = " "
+style = "bold red"
+
+# Git dirty/staged/modified status
+[git_status]
+style = "red"
+
+# Package version (for Node, etc.)
+[package]
+symbol = "📦 "
+style = "yellow"
+
+# Time on the prompt
+[time]
+disabled = false
+format = "[\\[$time\\]](yellow)"
+time_format = "%H:%M:%S"
+
+# Prompt character
+[character]
+success_symbol = "[❯](bold red)"
+error_symbol = "[✗](bold red)"
+vimcmd_symbol = "[❮](yellow)"
+

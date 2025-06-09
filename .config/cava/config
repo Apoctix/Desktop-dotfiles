@@ -1,0 +1,15 @@
+[general]
+bars = 20
+autosens = 0
+framerate = 60
+[input]
+method = pulse
+source = alsa_output.pci-0000_00_1f.3.analog-stereo.monitor
+sensitivity = 70
+stereo = yes
+
+[output]
+method = raw
+raw_target = /tmp/cava.fifo
+data_format = ascii
+channels = mono

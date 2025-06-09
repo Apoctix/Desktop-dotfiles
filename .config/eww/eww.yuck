@@ -1,0 +1,158 @@
+;; Polls
+(defpoll time_str :interval "1s" "date +%H:%M")
+(defpoll date_str :interval "1m" "date +\"%b %d, %Y\"")
+(defpoll cpu_usage :interval "2s" "~/.config/eww/scripts/system_info.sh cpu")
+(defpoll memory_usage :interval "2s" "~/.config/eww/scripts/system_info.sh memory")
+(defpoll temperature :interval "5s" "~/.config/eww/scripts/system_info.sh temp")
+(defpoll volume_value :interval "1s" "~/.config/eww/scripts/volume.sh get")
+(defpoll bluetooth_status :interval "1s" "~/.config/eww/scripts/bluetooth.sh get")
+(defpoll network_status :interval "2s" "~/.config/eww/scripts/network.sh get")
+(defpoll workspace :interval "0.1s" "~/.config/eww/scripts/workspaces.sh")
+
+;; Variables
+(defvar volume_muted false)
+(defvar power_menu_visible false)
+(defvar volume_reveal false)
+
+;; Widgets
+(defwidget bar []
+  (centerbox :orientation "h"
+            :class "bar"
+    (left)
+    (center)
+    (right)))
+
+(defwidget left []
+  (box :orientation "h"
+       :space-evenly false
+       :halign "start"
+       :class "left"
+       :spacing 20
+    (time)
+    (sep)
+    (system-info)))
+
+(defwidget sep []
+  (box :class "separator" :vexpand "false" :hexpand "false"
+    (label :text "│" :class "separator-text")))
+
+(defwidget time []
+  (box :class "time"
+       :orientation "h"
+       :space-evenly false
+       :spacing 10
+    (box :class "time-box"
+      (label :text "󰥔")
+      (label :text time_str))
+    (box :class "date-box"
+      (label :text "󰃭")
+      (label :text date_str))))
+
+(defwidget system-info []
+  (box :class "system-info"
+       :orientation "h"
+       :space-evenly false
+       :spacing 15
+    (box :class "cpu"
+         :tooltip "CPU ${cpu_usage}%"
+      "󰘚 ${cpu_usage}%")
+    (box :class "memory"
+         :tooltip "Memory ${memory_usage}%"
+      "󰍹 ${memory_usage}%")
+    (box :class "temp"
+         :tooltip "Temperature ${temperature}°C"
+      "󱃃 ${temperature}°C")))
+
+(defwidget center []
+  (box :orientation "h"
+       :space-evenly false
+       :halign "center"
+       :class "center"
+    (workspaces)))
+
+(defwidget workspaces []
+  (literal :content workspace))
+
+(defwidget right []
+  (box :orientation "h"
+       :space-evenly false
+       :halign "end"
+       :class "right"
+       :spacing 10
+    (volume)
+    (bluetooth)
+    (network)
+    (power)))
+
+(defwidget volume []
+  (eventbox :onhover "eww update volume_reveal=true"
+            :onhoverlost "eww update volume_reveal=false"
+    (box :class "volume"
+         :orientation "h"
+         :space-evenly false
+      (button :onclick "~/.config/eww/scripts/volume.sh toggle"
+        {volume_muted ? "󰝟" : 
+         volume_value < 30 ? "󰕿" :
+         volume_value < 70 ? "󰖀" : "󰕾"})
+      (revealer :transition "slideright"
+                :reveal volume_reveal
+                :duration "300ms"
+        (scale :min 0
+               :max 100
+               :value volume_value
+               :onchange "~/.config/eww/scripts/volume.sh set {}")))))
+
+(defwidget bluetooth []
+  (button :class "bluetooth"
+          :onclick "~/.config/eww/scripts/bluetooth.sh toggle"
+    {bluetooth_status == "off" ? "󰂲" :
+     bluetooth_status == "on" ? "󰂯" : "󰂱"}))
+
+(defwidget network []
+  (button :class "network"
+          :onclick "~/.config/eww/scripts/network.sh toggle"
+    {network_status == "disconnected" ? "󰤭" :
+     network_status == "wifi" ? "󰤨" : "󰈀"}))
+
+(defwidget power []
+  (eventbox :onhover "eww update power_menu_visible=true"
+            :onhoverlost "eww update power_menu_visible=false"
+    (box :orientation "h"
+         :space-evenly false
+         :class "power"
+      (button :class "power-btn" "󰐥")
+      (revealer :transition "slideright"
+                :reveal power_menu_visible
+                :duration "300ms"
+        (box :orientation "h"
+             :class "power-menu"
+          (button :onclick "~/.config/eww/scripts/power_menu.sh lock" "󰌾")
+          (button :onclick "~/.config/eww/scripts/power_menu.sh suspend" "󰒲")
+          (button :onclick "~/.config/eww/scripts/power_menu.sh logout" "󰍃")
+          (button :onclick "~/.config/eww/scripts/power_menu.sh reboot" "")
+          (button :onclick "~/.config/eww/scripts/power_menu.sh shutdown" "󰐥"))))))
+
+;; Windows
+(defwindow bar
+  :monitor "DELL E2416H"
+  :geometry (geometry :x "0%"
+                     :y "0%"
+                     :width "100%"
+                     :height "30px"
+                     :anchor "top center")
+  :stacking "fg"
+  :exclusive true
+  :namespace "eww_bar"
+  (bar))
+
+(defwindow bar_secondary
+  :monitor "Sceptre C24"
+  :geometry (geometry :x "0%"
+                     :y "0%"
+                     :width "100%"
+                     :height "30px"
+                     :anchor "top center")
+  :stacking "fg"
+  :exclusive true
+  :namespace "eww_bar"
+  (bar))

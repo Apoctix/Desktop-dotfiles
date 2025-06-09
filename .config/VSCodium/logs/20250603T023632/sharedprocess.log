@@ -1,0 +1,7 @@
+2025-06-03 02:36:33.628 [info] ComputeTargetPlatform: linux-x64
+2025-06-03 02:36:35.661 [info] ComputeTargetPlatform: linux-x64
+2025-06-03 02:37:22.509 [info] Getting Manifest... sainnhe.everforest
+2025-06-03 02:37:23.713 [info] Installing extension: sainnhe.everforest {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/max/.vscode-oss/extensions/extensions.json","path":"/home/max/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.100.23258","date":"2025-05-15T18:24:48.143Z"}}
+2025-06-03 02:37:24.487 [info] Extracted extension to file:///home/max/.vscode-oss/extensions/sainnhe.everforest-0.3.0-universal: sainnhe.everforest
+2025-06-03 02:37:24.515 [info] Renamed to /home/max/.vscode-oss/extensions/sainnhe.everforest-0.3.0-universal
+2025-06-03 02:37:24.533 [info] Extension installed successfully: sainnhe.everforest vscode-userdata:/home/max/.vscode-oss/extensions/extensions.json

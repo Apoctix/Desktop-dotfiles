@@ -1,0 +1,26 @@
+* {
+  all: unset;
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 14px;
+}
+
+.bar {
+  background-color: #1e1e2e;
+  color: #c0caf5;
+  padding: 0px 20px;
+  border-radius: 20px;
+  margin: 10px;
+  min-width: 35px;
+}
+
+.workspaces label {
+  font-size: 16px;
+}
+
+.clock {
+  font-weight: bold;
+}
+
+.volume {
+  color: #00ff9d;
+}

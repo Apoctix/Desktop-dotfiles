@@ -1,0 +1,17 @@
+[Default Applications]
+text/plain=nvim-terminal.desktop
+application/x-zerosize=nvim-terminal.desktop
+x-scheme-handler/discord-1216669957799018608=discord-1216669957799018608.desktop
+x-scheme-handler/roblox-studio=roblox-studio.desktop
+x-scheme-handler/roblox-player=roblox-player.desktop
+x-scheme-handler/roblox-studio-auth=roblox-studio-auth.desktop
+x-scheme-handler/roblox=roblox-player.desktop
+application/x-roblox-rbxl=roblox-studio.desktop
+application/x-roblox-rbxlx=roblox-studio.desktop
+
+[Added Associations]
+text/x-csrc=nvim-terminal.desktop;
+application/x-shellscript=nvim-terminal.desktop;
+application/json=nvim-terminal.desktop;
+application/x-zerosize=nvim-terminal.desktop;
+application/zip=thunar.desktop;

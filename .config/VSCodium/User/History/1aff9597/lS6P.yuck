@@ -1,0 +1,23 @@
+(defwindow bar
+  :monitor 0
+  :anchor "bottom center"
+  :stacking "fg"
+  :exclusive true
+  :focusable false
+
+  (box :class "bar" :spacing 15 :halign "fill" :valign "center"
+    ;; Left - Workspaces (placeholder)
+    (box :class "workspaces"
+      (label :text "    ")
+    )
+
+    ;; Center - Time
+    (label :class "clock" :text time)
+
+    ;; Right - Volume
+    (label :class "volume" :text " " :tooltip volume)
+  )
+)
+
+(defpoll time :interval "1s" "date +'%a %H:%M:%S'")
+(defpoll volume :interval "2s" "~/.config/eww/scripts/volume.sh")

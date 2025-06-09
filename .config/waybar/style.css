@@ -1,0 +1,59 @@
+* {
+  font-family: "JetBrainsMono Nerd Font", "FiraCode Nerd Font", monospace;
+  font-size: 12px;
+  color: #ffe100;
+  background: transparent;
+  border: none;
+}
+
+window#waybar {
+  background-color: rgba(13, 13, 13, 0.95);
+  border-bottom: 2px solid #ff005f;
+  box-shadow: 0 0 15px #00eaff;
+}
+
+#workspaces button {
+  color: #00eaff;
+  background-color: transparent;
+  padding: 0 8px;
+  margin: 0 4px;
+  border-radius: 8px;
+}
+
+#workspaces button.active {
+  background: linear-gradient(45deg, #ff005f, #ffe100);
+  color: black;
+}
+
+#window,
+#clock,
+#pulseaudio,
+#battery,
+#network,
+#tray,
+#custom-separator {
+  padding: 0 10px;
+  margin: 0 5px;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  box-shadow: 0 0 5px #00eaff;
+}
+#custom-powermenu {
+  background-color: #1a1a1a;
+  padding: 0 10px;
+  margin: 0 5px;
+  border-radius: 8px;
+  color: #ff005f;
+  box-shadow: 0 0 8px #ffe100;
+}
+
+#custom-player {
+  background-color: #1a1a1a;
+  color: #ffe100;
+  padding: 0 10px;
+  margin: 0 5px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px #ff005f;
+  font-family: "JetBrainsMono Nerd Font";
+}
+

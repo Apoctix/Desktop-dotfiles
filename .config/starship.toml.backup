@@ -1,0 +1,154 @@
+# Pink and Yellow themed Starship prompt with Pacman icons - JetBrains Mono Nerd Font Compatible
+
+# Main prompt format
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$nodejs\
+$cmd_duration\
+$custom\
+$line_break\
+$jobs\
+$battery\
+$time\
+$status\
+$character"""
+
+# Add a newline before prompt
+add_newline = true
+
+# Set a custom palette with pink and yellow
+palette = "pink_yellow"
+
+[palettes.pink_yellow]
+pink = "#FF69B4"       # Bright pink
+light_pink = "#FF9EC4"
+yellow = "#FFD700"     # Gold
+light_yellow = "#FFEC8B"
+error_pink = "#FF5555"
+success_green = "#50FA7B"
+
+# Add some spacing
+[line_break]
+disabled = false
+
+# Directory configuration with pink coloring
+[directory]
+style = "bold fg:pink"
+truncation_length = 3
+truncation_symbol = "…/"
+read_only = "󰊠"
+read_only_style = "bold fg:yellow"
+format = "󰮯 [$path]($style)[$read_only]($read_only_style) "
+
+# Git branch display with yellow accents
+[git_branch]
+symbol = "󰊠 "
+style = "bold fg:yellow"
+format = "[$symbol$branch]($style) "
+
+# Git status with yellow coloring
+[git_status]
+style = "bold fg:light_yellow"
+format = "([󰮯 $all_status$ahead_behind]($style) )"
+conflicted = "󰧟"
+ahead = "󰮯${count}"
+behind = "󰊠${count}"
+diverged = "󰧟${ahead_count}󰊠${behind_count}"
+untracked = "󰧞${count}"
+stashed = "󱗜${count}"
+modified = "󰮯${count}"
+staged = "󰮯${count}"
+renamed = "󰧟${count}"
+deleted = "󰮘${count}"
+
+# Detect if running in Neovim terminal
+[custom.nvim]
+command = "echo $NVIM"
+when = """ test -n "$NVIM" """
+style = "bold fg:pink bg:black"
+format = "[󰮯 nvim ]($style) "
+shell = ["bash", "--noprofile", "--norc"]
+
+# Status indicator
+[status]
+style = "bold fg:error_pink"
+symbol = "󰊠"
+format = "[$symbol $status]($style) "
+disabled = false
+success_symbol = "󰮯"
+
+# Character prompt with pink/yellow theme
+[character]
+success_symbol = "[󰮯](bold fg:pink)"
+error_symbol = "[󰊠](bold fg:error_pink)"
+vimcmd_symbol = "[󰧟](bold fg:yellow)"
+vimcmd_replace_one_symbol = "[󰧟](bold fg:light_yellow)"
+vimcmd_replace_symbol = "[󰧟](bold fg:light_yellow)"
+vimcmd_visual_symbol = "[󰧟](bold fg:light_pink)"
+
+# Command duration
+[cmd_duration]
+min_time = 500
+format = "󰊠 took [$duration](bold fg:yellow) "
+
+# Node.js version
+[nodejs]
+format = "[$symbol($version )]($style)"
+symbol = "󰧞 "
+style = "bold fg:light_yellow"
+
+# Jobs indicator
+[jobs]
+symbol = "󰊠"
+style = "bold fg:pink"
+number_threshold = 1
+format = "[$symbol $number]($style) "
+
+# Time display
+[time]
+disabled = false
+format = "[$time]($style) "
+style = "bold fg:light_pink"
+time_format = "%H:%M"
+
+# Battery display when low
+[battery]
+full_symbol = "󰮯"
+charging_symbol = "󰧟"
+discharging_symbol = "󰊠"
+disabled = false
+format = "[$symbol $percentage]($style) "
+
+[[battery.display]]
+threshold = 20
+style = "bold fg:error_pink"
+
+# Username display (when SSH)
+[username]
+style_user = "bold fg:light_pink"
+style_root = "bold fg:error_pink"
+format = "[$user]($style) 󰧟 "
+disabled = false
+show_always = false
+
+# Hostname (when SSH)
+[hostname]
+ssh_only = true
+format = "[$hostname](bold fg:yellow) 󰮯 "
+disabled = false
+
+# Python configuration
+[python]
+symbol = "󰧞 "
+style = "bold fg:yellow"
+format = "[$symbol$version]($style) "
+
+# Rust configuration
+[rust]
+symbol = "󰊠 "
+style = "bold fg:pink"
+format = "[$symbol$version]($style) "

@@ -1,0 +1,54 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["hyprland/workspaces", "clock"],
+  "modules-center": ["window"],
+  "modules-right": ["custom/player", "pulseaudio", "network", "tray", "custom/powermenu",],
+
+  "custom/separator": {
+    "format": "",
+    "tooltip": false
+  },
+
+  "hyprland/workspaces": {
+    "on-click": "activate",
+    "format": "{icon}",
+    "format-icons": {
+      "default": ""
+    }
+  },
+
+  "clock": {
+    "format": " {:%I:%M %p}",
+    "tooltip": true
+  },
+
+  "window": {
+    "format": "{}",
+    "max-length": 40
+  },
+
+  "pulseaudio": {
+    "format": " {volume}%",
+    "tooltip": true,
+    "on-click": "~/.config/rofi/applets/bin/volume.sh"
+  },
+
+  "battery": {
+    "format": " {capacity}%",
+    "format-charging": " {capacity}%",
+    "tooltip": true
+  },
+
+  "network": {
+    "format-wifi": " {essid}",
+    "format-ethernet": " Wired",
+    "format-disconnected": " No Net",
+    "tooltip": true
+  },
+
+  "tray": {
+    "icon-size": 18,
+    "spacing": 10
+  },
+}

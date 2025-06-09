@@ -1,0 +1,19 @@
+2025-06-03 00:53:31.868 [info] Started local extension host with pid 1558438.
+2025-06-03 00:53:31.881 [info] ComputeTargetPlatform: linux-x64
+2025-06-03 00:53:34.984 [info] [perf] Render performance baseline is 22ms
+2025-06-03 00:53:44.725 [error] Error while getting the latest version for the extension jolaleye.horizon-theme-vscode. Fetch timeout: 10000ms
+2025-06-03 00:53:44.726 [error] Error while getting the latest version for the extension naumovs.color-highlight. Fetch timeout: 10000ms
+2025-06-03 00:53:44.727 [error] Error while getting the latest version for the extension stylelint.vscode-stylelint. Fetch timeout: 10000ms
+2025-06-03 00:54:56.984 [info] Started local extension host with pid 1569966.
+2025-06-03 00:54:57.038 [info] ComputeTargetPlatform: linux-x64
+2025-06-03 00:54:59.602 [error] Error while getting the latest version for the extension beem.monochromator. Unexpected HTTP response: 502
+2025-06-03 00:54:59.603 [error] Error while getting the latest version for the extension ewen-lbh.vscode-hyprls. Unexpected HTTP response: 502
+2025-06-03 00:54:59.639 [error] Error while getting the latest version for the extension gruntfuggly.todo-tree. Unexpected HTTP response: 502
+2025-06-03 00:54:59.648 [error] Error while getting the latest version for the extension eww-yuck.yuck. Unexpected HTTP response: 502
+2025-06-03 00:54:59.649 [error] Error while getting the latest version for the extension jolaleye.horizon-theme-vscode. Unexpected HTTP response: 502
+2025-06-03 00:54:59.651 [error] Error while getting the latest version for the extension raillyhugo.one-hunter. Unexpected HTTP response: 502
+2025-06-03 00:54:59.652 [error] Error while getting the latest version for the extension naumovs.color-highlight. Unexpected HTTP response: 502
+2025-06-03 00:54:59.726 [info] [perf] Render performance baseline is 36ms
+2025-06-03 00:54:59.729 [error] Error while getting the latest version for the extension sdras.night-owl. Unexpected HTTP response: 502
+2025-06-03 00:54:59.730 [error] Error while getting the latest version for the extension stylelint.vscode-stylelint. Unexpected HTTP response: 502
+2025-06-03 00:54:59.732 [error] Error while getting the latest version for the extension zhuangtongfa.material-theme. Unexpected HTTP response: 502

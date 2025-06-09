@@ -1,0 +1,203 @@
+* {
+  all: unset;
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 14px;
+}
+
+// Variables
+$background: rgba(13, 13, 13, 0.95);
+$module-bg: #1a1a1a;
+
+.bar {
+  background-color: $background;
+  padding: 4px 8px;
+  margin: 0 5px;
+  border-bottom: 2px solid #ff005f;
+  box-shadow: 0 0 15px #00eaff;
+}
+
+// Left section
+.left {
+  margin-left: 8px;
+  
+  .time {
+    background-color: $module-bg;
+    border-radius: 8px;
+    padding: 0 16px;
+    margin: 0 5px;
+    box-shadow: 0 0 5px #00eaff;
+    
+    .time-box, .date-box {
+      color: #ffe100;
+      margin: 0 6px;
+      label {
+        margin: 0 6px;
+        &:first-child { font-size: 16px; }
+      }
+    }
+  }
+
+  .separator {
+    color: #00eaff;
+    font-size: 20px;
+    margin: 0 8px;
+    text-shadow: 0 0 5px #00eaff;
+  }
+  
+  .system-info {
+    background-color: $module-bg;
+    border-radius: 8px;
+    padding: 0 16px;
+    margin: 0 5px;
+    box-shadow: 0 0 5px #00eaff;
+    
+    box {
+      margin: 0 8px;
+      
+      &.cpu { 
+        color: #00eaff;
+        text-shadow: 0 0 2px #00eaff;
+      }
+      &.memory { 
+        color: #ffe100;
+        text-shadow: 0 0 2px #ffe100;
+      }
+      &.temp { 
+        color: #ff005f;
+        text-shadow: 0 0 2px #ff005f;
+      }
+    }
+  }
+}
+
+// Center section
+.center {
+  .workspaces {
+    background: transparent;
+    padding: 4px;
+    margin: 0 8px;
+    
+    button {
+      min-width: 30px;
+      min-height: 24px;
+      margin: 0 6px;
+      padding: 0 8px;
+      border-radius: 8px;
+      color: #00eaff;
+      font-size: 20px;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        box-shadow: 0 0 5px #00eaff;
+      }
+    }
+    
+    .workspace-empty {
+      color: rgba(0, 234, 255, 0.4);
+    }
+    
+    .workspace-occupied {
+      color: #ffe100;
+      box-shadow: 0 0 3px #00eaff;
+    }
+    
+    .workspace-active {
+      background: linear-gradient(45deg, #ff005f, #ffe100);
+      color: black;
+      box-shadow: 0 0 8px #00eaff;
+    }
+  }
+}
+
+// Right section
+.right {
+  margin-right: 8px;
+  
+  button, .volume {
+    background-color: $module-bg;
+    min-width: 32px;
+    min-height: 24px;
+    margin: 0 5px;
+    padding: 0 12px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #00eaff;
+    transition: all 0.2s ease;
+    font-size: 16px;
+    
+    &:hover {
+      box-shadow: 0 0 8px #00eaff;
+    }
+  }
+  
+  .volume {
+    color: #00eaff;
+    
+    scale {
+      min-width: 100px;
+      margin: 0 8px;
+      
+      trough {
+        background: rgba(0, 234, 255, 0.2);
+        border-radius: 4px;
+        min-height: 4px;
+        
+        highlight {
+          background: #00eaff;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+  
+  .bluetooth {
+    color: #ffe100;
+    text-shadow: 0 0 2px #ffe100;
+  }
+  
+  .network {
+    color: #00eaff;
+    text-shadow: 0 0 2px #00eaff;
+  }
+  
+  .power {
+    color: #ff005f;
+    
+    .power-btn {
+      box-shadow: 0 0 8px #ffe100;
+      text-shadow: 0 0 2px #ff005f;
+    }
+    
+    .power-menu {
+      background: $background;
+      border-radius: 8px;
+      padding: 8px;
+      margin: 4px;
+      box-shadow: 0 0 8px #ff005f;
+      
+      button {
+        color: #ffe100;
+        font-size: 16px;
+        margin: 0 6px;
+        text-shadow: 0 0 2px #ffe100;
+        
+        &:hover {
+          color: #ff005f;
+          box-shadow: 0 0 5px #ff005f;
+          text-shadow: 0 0 2px #ff005f;
+        }
+      }
+    }
+  }
+}
+
+tooltip {
+  background: $module-bg;
+  border: 1px solid #00eaff;
+  border-radius: 8px;
+  padding: 4px 8px;
+  box-shadow: 0 0 5px #00eaff;
+  
+  label {
+    color: #ffe100;
+  }
+}

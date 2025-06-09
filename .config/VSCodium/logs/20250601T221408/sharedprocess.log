@@ -1,0 +1,37 @@
+2025-06-01 22:14:10.356 [info] ComputeTargetPlatform: linux-x64
+2025-06-01 22:14:12.486 [info] ComputeTargetPlatform: linux-x64
+2025-06-01 23:06:34.020 [info] Getting Manifest... beem.monochromator
+2025-06-01 23:06:35.100 [info] Installing extension: beem.monochromator {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/max/.vscode-oss/extensions/extensions.json","path":"/home/max/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.100.23258","date":"2025-05-15T18:24:48.143Z"}}
+2025-06-01 23:06:36.742 [info] Extracted extension to file:///home/max/.vscode-oss/extensions/beem.monochromator-0.17.0-universal: beem.monochromator
+2025-06-01 23:06:36.763 [info] Renamed to /home/max/.vscode-oss/extensions/beem.monochromator-0.17.0-universal
+2025-06-01 23:06:36.778 [info] Extension installed successfully: beem.monochromator vscode-userdata:/home/max/.vscode-oss/extensions/extensions.json
+2025-06-01 23:07:37.133 [info] Getting Manifest... jolaleye.horizon-theme-vscode
+2025-06-01 23:07:37.381 [info] Installing extension: jolaleye.horizon-theme-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/max/.vscode-oss/extensions/extensions.json","path":"/home/max/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.100.23258","date":"2025-05-15T18:24:48.143Z"}}
+2025-06-01 23:07:38.247 [info] Extracted extension to file:///home/max/.vscode-oss/extensions/jolaleye.horizon-theme-vscode-2.0.2-universal: jolaleye.horizon-theme-vscode
+2025-06-01 23:07:38.266 [info] Renamed to /home/max/.vscode-oss/extensions/jolaleye.horizon-theme-vscode-2.0.2-universal
+2025-06-01 23:07:38.280 [info] Extension installed successfully: jolaleye.horizon-theme-vscode vscode-userdata:/home/max/.vscode-oss/extensions/extensions.json
+2025-06-01 23:07:57.569 [info] Getting Manifest... zhuangtongfa.material-theme
+2025-06-01 23:07:57.871 [info] Installing extension: zhuangtongfa.material-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/max/.vscode-oss/extensions/extensions.json","path":"/home/max/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.100.23258","date":"2025-05-15T18:24:48.143Z"}}
+2025-06-01 23:07:58.275 [info] Extracted extension to file:///home/max/.vscode-oss/extensions/zhuangtongfa.material-theme-3.19.0-universal: zhuangtongfa.material-theme
+2025-06-01 23:07:58.302 [info] Renamed to /home/max/.vscode-oss/extensions/zhuangtongfa.material-theme-3.19.0-universal
+2025-06-01 23:07:58.316 [info] Extension installed successfully: zhuangtongfa.material-theme vscode-userdata:/home/max/.vscode-oss/extensions/extensions.json
+2025-06-01 23:08:19.592 [info] Getting Manifest... raillyhugo.one-hunter
+2025-06-01 23:08:19.844 [info] Installing extension: raillyhugo.one-hunter {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/max/.vscode-oss/extensions/extensions.json","path":"/home/max/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.100.23258","date":"2025-05-15T18:24:48.143Z"}}
+2025-06-01 23:08:21.959 [info] Extracted extension to file:///home/max/.vscode-oss/extensions/raillyhugo.one-hunter-1.4.0-universal: raillyhugo.one-hunter
+2025-06-01 23:08:21.983 [info] Renamed to /home/max/.vscode-oss/extensions/raillyhugo.one-hunter-1.4.0-universal
+2025-06-01 23:08:21.997 [info] Extension installed successfully: raillyhugo.one-hunter vscode-userdata:/home/max/.vscode-oss/extensions/extensions.json
+2025-06-01 23:08:34.431 [info] Getting Manifest... robbowen.synthwave-vscode
+2025-06-01 23:08:34.682 [info] Installing extension: robbowen.synthwave-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/max/.vscode-oss/extensions/extensions.json","path":"/home/max/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.100.23258","date":"2025-05-15T18:24:48.143Z"}}
+2025-06-01 23:08:35.065 [info] Extracted extension to file:///home/max/.vscode-oss/extensions/robbowen.synthwave-vscode-0.1.19-universal: robbowen.synthwave-vscode
+2025-06-01 23:08:35.069 [info] Renamed to /home/max/.vscode-oss/extensions/robbowen.synthwave-vscode-0.1.19-universal
+2025-06-01 23:08:35.084 [info] Extension installed successfully: robbowen.synthwave-vscode vscode-userdata:/home/max/.vscode-oss/extensions/extensions.json
+2025-06-01 23:08:56.373 [info] Getting Manifest... sdras.night-owl
+2025-06-01 23:09:01.274 [info] Installing extension: sdras.night-owl {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/max/.vscode-oss/extensions/extensions.json","path":"/home/max/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.100.23258","date":"2025-05-15T18:24:48.143Z"}}
+2025-06-01 23:09:19.894 [info] Extracted extension to file:///home/max/.vscode-oss/extensions/sdras.night-owl-2.1.1-universal: sdras.night-owl
+2025-06-01 23:09:19.921 [info] Renamed to /home/max/.vscode-oss/extensions/sdras.night-owl-2.1.1-universal
+2025-06-01 23:09:19.974 [info] Extension installed successfully: sdras.night-owl vscode-userdata:/home/max/.vscode-oss/extensions/extensions.json
+2025-06-01 23:09:30.382 [info] Getting Manifest... whizkydee.material-palenight-theme
+2025-06-01 23:09:30.647 [info] Installing extension: whizkydee.material-palenight-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/max/.vscode-oss/extensions/extensions.json","path":"/home/max/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.100.23258","date":"2025-05-15T18:24:48.143Z"}}
+2025-06-01 23:09:30.971 [info] Extracted extension to file:///home/max/.vscode-oss/extensions/whizkydee.material-palenight-theme-2.0.2-universal: whizkydee.material-palenight-theme
+2025-06-01 23:09:30.975 [info] Renamed to /home/max/.vscode-oss/extensions/whizkydee.material-palenight-theme-2.0.2-universal
+2025-06-01 23:09:30.989 [info] Extension installed successfully: whizkydee.material-palenight-theme vscode-userdata:/home/max/.vscode-oss/extensions/extensions.json

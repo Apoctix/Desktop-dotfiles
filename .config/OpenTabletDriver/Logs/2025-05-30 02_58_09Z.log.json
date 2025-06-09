@@ -1,0 +1,2777 @@
+[
+{
+  "Time": "2025-05-29T20:58:09.8245816-06:00",
+  "Group": "RootHub",
+  "Message": "Initialized internal child hubs: HidSharpDeviceRootHub",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:10.0811115-06:00",
+  "Group": "Detect",
+  "Message": "Searching for tablets...",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:10.0843734-06:00",
+  "Group": "Detect",
+  "Message": "No tablets were detected.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:23.6484275-06:00",
+  "Group": "IPC",
+  "Message": "Connected to a client.",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.4704983-06:00",
+  "Group": "HidSharpDeviceRootHub",
+  "Message": "Changes: 3, Add: 3, Remove: 0",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.5830765-06:00",
+  "Group": "RootHub",
+  "Message": "Invoking DevicesChanged",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.5841622-06:00",
+  "Group": "Detect",
+  "Message": "Searching for tablets...",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.5845521-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon 1060 Pro' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.000D/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.6780146-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M106K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.000D/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.6783418-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M10K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.000D/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.6785408-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD1560' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.000D/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.6787177-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD2200' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.000D/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.6789449-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S56K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.000D/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.6844876-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion 1060 Plus' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.000D/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.6847009-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion 420' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.000D/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.6864284-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion G10T' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.000D/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.6865783-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GC610' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.000D/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.6867089-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-156HD V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.000D/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.6868381-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-220 V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.000D/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.6870389-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-221 Pro' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.000D/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.6872692-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-221' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.000D/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.6874622-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H1060P' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.000D/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.6876454-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H420' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.000D/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7108388-06:00",
+  "Group": "Detect",
+  "Message": "Found 'Huion H420' digitizer: 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.000D/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7110861-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon 1060 Pro' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7818291-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M106K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7821124-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M10K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7823252-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD1560' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7824891-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD2200' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7826507-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S56K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7841247-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion 1060 Plus' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7843345-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion 420' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7864753-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion G10T' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.78684-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GC610' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7871356-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-156HD V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7874603-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-220 V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7877496-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-221 Pro' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.788031-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-221' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7883219-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H1060P' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7885973-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H420' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7902062-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H430P' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7905638-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7908816-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro V3' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7922245-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7925928-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H640P' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.792867-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H690' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7943704-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H950P' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7946094-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS64' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.794866-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 20' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7952225-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 12' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7955418-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 13' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7958707-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 20' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7960988-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 22 (2019)' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7964293-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 24' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7967541-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion New 1060 Plus (2048)' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7982752-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion New 1060 Plus' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7985072-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Q11K V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7987839-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Q11K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7990805-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion WH1409 V2 (Variant 2)' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7993852-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion WH1409 V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7996771-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion WH1409' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.7999843-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Monoprice 10594' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8002991-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Turcom TS-6580' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.000E/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8018955-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon 1060 Pro' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8026414-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M106K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8029883-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M10K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8032972-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD1560' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8035956-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD2200' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8038943-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S56K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8053561-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion 1060 Plus' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8056137-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion 420' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8079731-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion G10T' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8082239-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GC610' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8084843-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-156HD V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.808809-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-220 V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8091423-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-221 Pro' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8094637-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-221' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8097644-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H1060P' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8100714-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H420' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8125969-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H430P' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8129995-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.813333-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro V3' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8148392-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8151713-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H640P' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8154421-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H690' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8166601-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H950P' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8169348-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS64' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8172268-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 20' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8174923-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 12' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8177617-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 13' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8180393-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 20' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8183461-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 22 (2019)' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8186783-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 24' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8189774-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion New 1060 Plus (2048)' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8202495-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion New 1060 Plus' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8204289-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Q11K V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8205876-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Q11K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8207947-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion WH1409 V2 (Variant 2)' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8210432-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion WH1409 V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.821294-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion WH1409' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8215479-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Monoprice 10594' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8217851-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Turcom TS-6580' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.000F/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8232614-06:00",
+  "Group": "Detect",
+  "Message": "Found tablet 'Huion H420'",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8310877-06:00",
+  "Group": "Device",
+  "Message": "Initializing device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.000D/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8314242-06:00",
+  "Group": "Device",
+  "Message": "Using report parser type 'OpenTabletDriver.Configurations.Parsers.UCLogic.UCLogicReportParser'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8327052-06:00",
+  "Group": "Device",
+  "Message": "Initialized string index 100",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8336286-06:00",
+  "Group": "Device",
+  "Message": "Initialized string index 123",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8708371-06:00",
+  "Group": "Evdev",
+  "Message": "Successfully initialized virtual pressure sensitive tablet. (code NONE)",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8771953-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Input: [25.8x20.506475@<12.9, 10.253239>:0°]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8795411-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Output: [1920x1080@<2880, 540>]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8807744-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockAspectRatio: False",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8809694-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaClipping: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8812063-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaLimiting: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8814207-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockToBounds: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.886527-06:00",
+  "Group": "Huion H420",
+  "Message": "Output mode: Artist Mode",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8956044-06:00",
+  "Group": "MouseBinding",
+  "Message": "Button: Left",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.8995808-06:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.905313-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Input: [25.8x20.506475@<12.9, 10.253239>:0°]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.9055621-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Output: [1920x1080@<2880, 540>]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.9057417-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockAspectRatio: False",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.9058651-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaClipping: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.9059856-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaLimiting: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.9061586-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockToBounds: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.9113395-06:00",
+  "Group": "Huion H420",
+  "Message": "Output mode: Artist Mode",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.9183942-06:00",
+  "Group": "MouseBinding",
+  "Message": "Button: Left",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:27.9187074-06:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:30.6575889-06:00",
+  "Group": "Settings",
+  "Message": "Settings saved to '/home/max/.config/OpenTabletDriver/settings.json'",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:30.6671612-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Input: [25.8x20.506475@<12.9, 10.253239>:0°]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:30.667393-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Output: [1920x1080@<2880, 540>]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:30.6675123-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockAspectRatio: False",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:30.6676136-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaClipping: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:30.6677229-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaLimiting: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:30.6678126-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockToBounds: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:30.6792734-06:00",
+  "Group": "Huion H420",
+  "Message": "Output mode: Artist Mode",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:30.6882795-06:00",
+  "Group": "MouseBinding",
+  "Message": "Button: Left",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:30.6884704-06:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:30.9773502-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Input: [25.8x20.506475@<12.9, 10.253239>:0°]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:30.9775124-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Output: [1920x1080@<2880, 540>]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:30.9775879-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockAspectRatio: False",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:30.9776942-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaClipping: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:30.977788-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaLimiting: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:30.9778878-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockToBounds: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:30.984473-06:00",
+  "Group": "Huion H420",
+  "Message": "Output mode: Artist Mode",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:30.9918015-06:00",
+  "Group": "MouseBinding",
+  "Message": "Button: Left",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:30.9919522-06:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:48.4975998-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Input: [25.8x20.506475@<12.9, 10.253239>:0°]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:48.4978893-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Output: [1920x1080@<2880, 540>]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:48.4980348-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockAspectRatio: False",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:48.498183-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaClipping: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:48.4983242-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaLimiting: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:48.4984364-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockToBounds: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:48.5043513-06:00",
+  "Group": "Huion H420",
+  "Message": "Output mode: Artist Mode",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:48.5115835-06:00",
+  "Group": "MouseBinding",
+  "Message": "Button: Left",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:48.5117303-06:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:48.7693925-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Input: [25.8x20.506475@<12.9, 10.253239>:0°]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:48.7695287-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Output: [1920x1080@<2880, 540>]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:48.7696817-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockAspectRatio: False",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:48.7697739-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaClipping: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:48.7698642-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaLimiting: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:48.7699816-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockToBounds: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:48.7741308-06:00",
+  "Group": "Huion H420",
+  "Message": "Output mode: Artist Mode",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:48.7797427-06:00",
+  "Group": "MouseBinding",
+  "Message": "Button: Left",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:48.7799189-06:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.0095883-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Input: [25.8x20.506475@<12.9, 10.253239>:0°]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.009725-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Output: [1920x1080@<2880, 540>]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.0097845-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockAspectRatio: False",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.0098451-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaClipping: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.0099067-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaLimiting: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.0099594-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockToBounds: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.0151401-06:00",
+  "Group": "Huion H420",
+  "Message": "Output mode: Artist Mode",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.0216787-06:00",
+  "Group": "MouseBinding",
+  "Message": "Button: Left",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.0217923-06:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.2106254-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Input: [25.8x20.506475@<12.9, 10.253239>:0°]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.2108976-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Output: [1920x1080@<2880, 540>]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.2110702-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockAspectRatio: False",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.2112808-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaClipping: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.2114585-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaLimiting: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.2116408-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockToBounds: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.2242623-06:00",
+  "Group": "Huion H420",
+  "Message": "Output mode: Artist Mode",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.2371664-06:00",
+  "Group": "MouseBinding",
+  "Message": "Button: Left",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.2373364-06:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.5600631-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Input: [25.8x20.506475@<12.9, 10.253239>:0°]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.5602537-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Output: [1920x1080@<2880, 540>]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.5603515-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockAspectRatio: False",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.5604285-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaClipping: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.5604981-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaLimiting: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.5605688-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockToBounds: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.5716192-06:00",
+  "Group": "Huion H420",
+  "Message": "Output mode: Artist Mode",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.5818843-06:00",
+  "Group": "MouseBinding",
+  "Message": "Button: Left",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.5820324-06:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.7268246-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Input: [25.8x20.506475@<12.9, 10.253239>:0°]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.7269538-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Output: [1920x1080@<2880, 540>]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.7270384-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockAspectRatio: False",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.7271087-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaClipping: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.7271758-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaLimiting: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.7272578-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockToBounds: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.7349964-06:00",
+  "Group": "Huion H420",
+  "Message": "Output mode: Artist Mode",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.7437924-06:00",
+  "Group": "MouseBinding",
+  "Message": "Button: Left",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.7439602-06:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.8877093-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Input: [25.8x20.506475@<12.9, 10.253239>:0°]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.8877899-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Output: [1920x1080@<2880, 540>]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.8878462-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockAspectRatio: False",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.8879101-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaClipping: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.8879892-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaLimiting: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.8880336-06:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockToBounds: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.8916902-06:00",
+  "Group": "Huion H420",
+  "Message": "Output mode: Artist Mode",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.8965601-06:00",
+  "Group": "MouseBinding",
+  "Message": "Button: Left",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:58:49.8966747-06:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:59:03.8750461-06:00",
+  "Group": "Evdev",
+  "Message": "Successfully initialized virtual tablet. (code NONE)",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:59:03.87573-06:00",
+  "Group": "AbsoluteMode",
+  "Message": "Input: [25.8x20.506475@<12.9, 10.253239>:0°]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:59:03.8759692-06:00",
+  "Group": "AbsoluteMode",
+  "Message": "Output: [1920x1080@<2880, 540>]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:59:03.8761298-06:00",
+  "Group": "AbsoluteMode",
+  "Message": "LockAspectRatio: False",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:59:03.8762922-06:00",
+  "Group": "AbsoluteMode",
+  "Message": "AreaClipping: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:59:03.876433-06:00",
+  "Group": "AbsoluteMode",
+  "Message": "AreaLimiting: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:59:03.8765623-06:00",
+  "Group": "AbsoluteMode",
+  "Message": "LockToBounds: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:59:03.8872181-06:00",
+  "Group": "Huion H420",
+  "Message": "Output mode: Absolute Mode",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:59:03.8969093-06:00",
+  "Group": "MouseBinding",
+  "Message": "Button: Left",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:59:03.8971002-06:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T20:59:11.8319689-06:00",
+  "Group": "IPC",
+  "Message": "Disconnected from a client.",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:22.9668199-06:00",
+  "Group": "Device",
+  "Message": "Device disconnected.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:22.9755531-06:00",
+  "Group": "HidSharpDeviceRootHub",
+  "Message": "Changes: 1, Add: 0, Remove: 1",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:23.0226589-06:00",
+  "Group": "HidSharpDeviceRootHub",
+  "Message": "Changes: 1, Add: 0, Remove: 1",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:23.0678916-06:00",
+  "Group": "HidSharpDeviceRootHub",
+  "Message": "Changes: 1, Add: 0, Remove: 1",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:23.0760596-06:00",
+  "Group": "RootHub",
+  "Message": "Debounced HidSharpDeviceRootHub's DevicesChanged event",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:23.1233159-06:00",
+  "Group": "RootHub",
+  "Message": "Debounced HidSharpDeviceRootHub's DevicesChanged event",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:23.1678617-06:00",
+  "Group": "RootHub",
+  "Message": "Invoking DevicesChanged",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.6352296-06:00",
+  "Group": "HidSharpDeviceRootHub",
+  "Message": "Changes: 3, Add: 3, Remove: 0",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7352891-06:00",
+  "Group": "RootHub",
+  "Message": "Invoking DevicesChanged",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7353395-06:00",
+  "Group": "Detect",
+  "Message": "Searching for tablets...",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7353857-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon 1060 Pro' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7574576-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M106K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.757481-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M10K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7574864-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD1560' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7574896-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD2200' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7574928-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S56K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7581515-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion 1060 Plus' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7581649-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion 420' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7593683-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion G10T' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7593871-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GC610' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7593941-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-156HD V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7593999-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-220 V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7594049-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-221 Pro' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7594092-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-221' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7594139-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H1060P' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7594212-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H420' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.76013-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H430P' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7601468-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7601533-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro V3' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7608082-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7608204-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H640P' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7608235-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H690' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7614952-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H950P' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7615097-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS64' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7615168-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 20' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.761521-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 12' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7615291-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 13' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.761536-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 20' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7615413-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 22 (2019)' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.761549-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 24' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7615543-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion New 1060 Plus (2048)' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.762181-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion New 1060 Plus' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7621983-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Q11K V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7622032-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Q11K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.762207-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion WH1409 V2 (Variant 2)' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7622104-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion WH1409 V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7622145-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion WH1409' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7622218-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Monoprice 10594' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7622271-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Turcom TS-6580' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:256C:006E.0012/hidraw/hidraw11)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.7628785-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon 1060 Pro' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8147105-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M106K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8147444-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M10K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8147509-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD1560' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8147556-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD2200' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8147616-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S56K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8156373-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion 1060 Plus' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8156557-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion 420' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8171628-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion G10T' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8171834-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GC610' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.817198-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-156HD V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8172053-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-220 V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.817211-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-221 Pro' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8172155-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-221' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8172213-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H1060P' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8172278-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H420' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8181347-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H430P' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8181549-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8181669-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro V3' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8189331-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8189514-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H640P' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8189592-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H690' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8197284-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H950P' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8197443-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS64' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8197504-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 20' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8197537-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 12' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8197568-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 13' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8197642-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 20' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8197682-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 22 (2019)' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8197715-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 24' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8197767-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion New 1060 Plus (2048)' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8204556-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion New 1060 Plus' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.820482-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Q11K V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8204886-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Q11K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8204939-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion WH1409 V2 (Variant 2)' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8204988-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion WH1409 V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8205156-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion WH1409' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8205248-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Monoprice 10594' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8205309-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Turcom TS-6580' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:256C:006E.0011/hidraw/hidraw10)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8214796-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon 1060 Pro' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.0010/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.872498-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M106K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.0010/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8725242-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M10K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.0010/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8725289-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD1560' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.0010/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.872532-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD2200' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.0010/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8725347-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S56K' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.0010/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8732944-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion 1060 Plus' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.0010/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8733051-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion 420' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.0010/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.874439-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion G10T' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.0010/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8744501-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GC610' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.0010/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8744527-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-156HD V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.0010/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8744546-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-220 V2' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.0010/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8744565-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-221 Pro' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.0010/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8744582-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GT-221' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.0010/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.87446-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H1060P' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.0010/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8744619-06:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H420' to device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.0010/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8867863-06:00",
+  "Group": "Detect",
+  "Message": "Found 'Huion H420' digitizer: 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.0010/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.886856-06:00",
+  "Group": "Detect",
+  "Message": "Found tablet 'Huion H420'",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.887329-06:00",
+  "Group": "Device",
+  "Message": "Initializing device 'H420 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:256C:006E.0010/hidraw/hidraw9)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8873406-06:00",
+  "Group": "Device",
+  "Message": "Using report parser type 'OpenTabletDriver.Configurations.Parsers.UCLogic.UCLogicReportParser'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8880409-06:00",
+  "Group": "Device",
+  "Message": "Initialized string index 100",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8886619-06:00",
+  "Group": "Device",
+  "Message": "Initialized string index 123",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8927275-06:00",
+  "Group": "AbsoluteMode",
+  "Message": "Input: [25.8x20.506475@<12.9, 10.253239>:0°]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8927651-06:00",
+  "Group": "AbsoluteMode",
+  "Message": "Output: [1920x1080@<2880, 540>]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.892777-06:00",
+  "Group": "AbsoluteMode",
+  "Message": "LockAspectRatio: False",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8927837-06:00",
+  "Group": "AbsoluteMode",
+  "Message": "AreaClipping: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.89279-06:00",
+  "Group": "AbsoluteMode",
+  "Message": "AreaLimiting: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8927962-06:00",
+  "Group": "AbsoluteMode",
+  "Message": "LockToBounds: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.8963033-06:00",
+  "Group": "Huion H420",
+  "Message": "Output mode: Absolute Mode",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.9019857-06:00",
+  "Group": "MouseBinding",
+  "Message": "Button: Left",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.9021495-06:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.9057591-06:00",
+  "Group": "AbsoluteMode",
+  "Message": "Input: [25.8x20.506475@<12.9, 10.253239>:0°]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.9057876-06:00",
+  "Group": "AbsoluteMode",
+  "Message": "Output: [1920x1080@<2880, 540>]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.9057998-06:00",
+  "Group": "AbsoluteMode",
+  "Message": "LockAspectRatio: False",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.9058069-06:00",
+  "Group": "AbsoluteMode",
+  "Message": "AreaClipping: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.9058138-06:00",
+  "Group": "AbsoluteMode",
+  "Message": "AreaLimiting: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.9058208-06:00",
+  "Group": "AbsoluteMode",
+  "Message": "LockToBounds: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.9092734-06:00",
+  "Group": "Huion H420",
+  "Message": "Output mode: Absolute Mode",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.9144211-06:00",
+  "Group": "MouseBinding",
+  "Message": "Button: Left",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-05-29T21:01:30.9144888-06:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},

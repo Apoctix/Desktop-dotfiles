@@ -1,0 +1,1 @@
+2025-06-01 22:14:10.918 [error] Failed to set sticky bit on /tmp/max-codium-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/max-codium-zsh'

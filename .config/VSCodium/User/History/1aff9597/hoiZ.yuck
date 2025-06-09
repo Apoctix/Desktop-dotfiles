@@ -1,0 +1,9 @@
+(defwindow bar
+  :monitor 0
+  :anchor "top center"
+  :geometry (800px 30px)
+  (box :class "bar"
+    (label :text "Hello, Max!")
+    (button :onclick "notify-send 'Clicked!'" "Click Me")
+  )
+)

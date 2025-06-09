@@ -1,0 +1,73 @@
+{
+  "Revision": "0.7.0.0",
+  "Profiles": [
+    {
+      "Tablet": "Huion H420",
+      "OutputMode": {
+        "Path": "OpenTabletDriver.Desktop.Output.LinuxArtistMode",
+        "Settings": [
+          {
+            "Property": "Input",
+            "Value": {
+              "Rotation": 0.0,
+              "Width": 25.8,
+              "Height": 20.506475,
+              "XPosition": 12.9,
+              "YPosition": 10.253239
+            }
+          },
+          {
+            "Property": "Output",
+            "Value": {
+              "Width": 1920.0,
+              "Height": 1080.0,
+              "XPosition": 2880.0,
+              "YPosition": 540.0
+            }
+          },
+          {
+            "Property": "LockAspectRatio",
+            "Value": false
+          },
+          {
+            "Property": "AreaClipping",
+            "Value": true
+          },
+          {
+            "Property": "AreaLimiting",
+            "Value": true
+          },
+          {
+            "Property": "LockToBounds",
+            "Value": true
+          }
+        ],
+        "Enable": true
+      },
+      "Filters": [],
+      "Bindings": {
+        "TipButton": {
+          "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+          "Settings": [
+            {
+              "Property": "Button",
+              "Value": "Left"
+            }
+          ],
+          "Enable": true
+        },
+        "PenButtons": [
+          null,
+          null
+        ],
+        "AuxButtons": [
+          null,
+          null,
+          null
+        ],
+        "MouseButtons": []
+      }
+    }
+  ],
+  "Tools": []
+}

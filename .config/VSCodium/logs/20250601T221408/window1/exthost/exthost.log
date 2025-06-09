@@ -1,0 +1,39 @@
+2025-06-01 22:14:10.740 [info] Extension host with pid 147930 started
+2025-06-01 22:14:10.740 [info] Skipping acquiring lock for /home/max/.config/VSCodium/User/workspaceStorage/65ae3d3ac533701678aa32de3a892178.
+2025-06-01 22:14:10.919 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-01 22:14:10.941 [info] ExtensionService#_doActivateExtension eww-yuck.yuck, startup: false, activationEvent: 'onLanguage:yuck'
+2025-06-01 22:14:10.944 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-01 22:14:10.952 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-01 22:14:11.014 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-01 22:14:11.356 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-01 22:14:11.360 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-01 22:14:11.399 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-01 22:14:11.449 [info] Eager extensions activated
+2025-06-01 22:14:11.465 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-01 22:14:11.468 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-01 22:14:11.487 [info] ExtensionService#_doActivateExtension Gruntfuggly.todo-tree, startup: false, activationEvent: 'onStartupFinished'
+2025-06-01 22:14:11.541 [info] ExtensionService#_doActivateExtension imgildev.vscode-code-mark-plus, startup: false, activationEvent: 'onStartupFinished'
+2025-06-01 22:14:11.605 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2025-06-01 22:14:11.612 [info] ExtensionService#_doActivateExtension stylelint.vscode-stylelint, startup: false, activationEvent: 'onStartupFinished'
+2025-06-01 22:14:12.054 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-01 22:14:25.612 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:scss'
+2025-06-01 22:14:26.686 [info] ExtensionService#_doActivateExtension ewen-lbh.vscode-hyprls, startup: false, activationEvent: 'onLanguage:hyprlang'
+2025-06-01 23:07:58.421 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-06-01 23:31:02.652 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-01 23:31:02.666 [error] An error occurred when disposing the subscriptions for extension 'Gruntfuggly.todo-tree':
+2025-06-01 23:31:02.666 [error] AggregateError: Encountered errors while disposing of store
+	at Si (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:822)
+	at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:18462
+	at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1056
+	at Object.dispose (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at PQ._deactivate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:14727)
+	at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12013
+	at Array.map (<anonymous>)
+	at PQ._deactivateAll (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12001)
+	at PQ.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12354)
+	at v8.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:1602)
+	at ds (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:225:5829)
+	at MessagePortMain.<anonymous> (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:225:2284)
+	at MessagePortMain.emit (node:events:524:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-06-01 23:31:02.670 [info] Extension host with pid 147930 exiting with code 0

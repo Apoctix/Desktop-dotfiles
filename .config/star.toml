@@ -1,0 +1,80 @@
+
+# Cyberpunk Starship Prompt Theme - Red + Yellow
+
+add_newline = true
+format = """
+[┌─](bold red)$time$username$hostname$directory$git_branch$git_status$package$nodejs$python$rust$golang
+[└─>](bold yellow) """
+
+[character]
+success_symbol = "[](bold yellow)[](bold red)"
+error_symbol = "[](bold yellow)[](bold red)"
+vicmd_symbol = "[](bold red)[](bold yellow)"
+
+# Modules
+
+[username]
+style_user = "bold yellow"
+style_root = "bold red"
+format = "[$user]($style) "
+show_always = true
+
+[hostname]
+ssh_only = false
+format = "[@$hostname](bold red) "
+
+[directory]
+style = "bold yellow"
+read_only = " "
+read_only_style = "bold red"
+truncation_length = 3
+truncation_symbol = "…/"
+format = "[$path]($style)[$read_only]($read_only_style) "
+
+[git_branch]
+symbol = " "
+style = "bold yellow"
+format = "on [$symbol$branch]($style) "
+
+[git_status]
+style = "bold red"
+format = '([\[$all_status\]]($style)) '
+
+[nodejs]
+symbol = " "
+style = "bold yellow"
+format = "via [$symbol($version)]($style) "
+
+[python]
+symbol = " "
+style = "bold yellow"
+format = "via [$symbol$version]($style) "
+
+[rust]
+symbol = " "
+style = "bold yellow"
+format = "via [$symbol$version]($style) "
+
+[golang]
+symbol = " "
+style = "bold yellow"
+format = "via [$symbol$version]($style) "
+
+[package]
+symbol = " "
+style = "bold yellow"
+format = "[$symbol$version]($style) "
+
+[time]
+disabled = false
+time_format = "%Y-%m-%d %H:%M"
+style = "bold red"
+format = "[ $time]($style) "
+
+[battery]
+disabled = false
+format = " [$symbol$percentage]($style) "
+full_symbol = ""
+charging_symbol = ""
+discharging_symbol = ""
+style = "bold red"

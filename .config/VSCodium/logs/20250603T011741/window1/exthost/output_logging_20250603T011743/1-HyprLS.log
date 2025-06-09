@@ -1,0 +1,3 @@
+Failed to find heading workspace-rules in Workspace-Rules
+2025-06-03T01:17:43.448-0600	DEBUG	hyprls/main.go:25	going to start server
+2025-06-03T01:17:43.448-0600	DEBUG	hyprls/main.go:18	starting server
